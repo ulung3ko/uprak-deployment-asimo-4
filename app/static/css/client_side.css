@@ -76,22 +76,28 @@
   
   .navbar {
 	  margin-bottom: 0;
-	  background: linear-gradient(240.31deg, #3E4A61 -10.08%, #6B7486 1.03%, #FFFFFF 51.68%);
+	  /* background: linear-gradient(240.31deg, #3E4A61 -10.08%, #6B7486 1.03%, #FFFFFF 51.68%); */
+	  background: none;
 	  z-index: 9999;
 	  border: 0;
 	  font-size: 12px !important;
 	  line-height: 1.42857143 !important;
 	  letter-spacing: 4px;
 	  border-radius: 0;
+	  margin-top: 10px;
+	  margin-right: 3px;
   }
   
   .navbar li a, .navbar .navbar-brand {
 	  color: #fff !important;
+	  border-radius: 25px;
+	  margin-right: 3px;
   }
   
   .navbar-nav li a:hover, .navbar-nav li.active a {
 	  color: #8186D5 !important;
 	  background-color: #fff !important;
+	  border-radius: 25px;
   }
   
   .navbar-default .navbar-toggle {
